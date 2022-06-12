@@ -1,0 +1,17 @@
+{
+  "name": "tts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hajime",
+  "license": "MIT",
+  "dependencies": {
+    "@azure/app-configuration": "^1.3.1",
+    "@azure/identity": "^2.0.4",
+    "@azure/keyvault-secrets": "^4.4.0",
+    "dotenv": "^16.0.1"
+  }
+}
