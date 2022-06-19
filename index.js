@@ -13,7 +13,7 @@ if (typeof APP_CONFIG_CONN_STRING === 'undefined', typeof APP_CONFIG_KEY_NAME ==
 const appConfConnStr = APP_CONFIG_CONN_STRING;
 const appConfClient = new appConfig.AppConfigurationClient(appConfConnStr);
 async function run() {
-  let retrievedSetting = await appConfClient.getConfigurationSetting({
+  const retrievedSetting = await appConfClient.getConfigurationSetting({
     key: APP_CONFIG_KEY_NAME
   });
 
